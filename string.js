@@ -1,0 +1,10 @@
+var fullname = "shah";
+console.log(fullname);
+var message = 123;
+console.log(message);
+var isDone = false;
+console.log(isDone);
+var noTsure = 10;
+console.log(noTsure);
+var mYnAme = 167;
+console.log(mYnAme);
