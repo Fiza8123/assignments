@@ -1,4 +1,4 @@
-let fullnAme: string = "ahad";
+let  fullnAme: string = "ahad";
 console.log(fullnAme)
 
 // example of  strong string
@@ -104,6 +104,183 @@ console.log(fruits)
 let game: boolean[] =[true,false]
 game[0] = false
 console.log(game)
+
+// objects =>{}  => {key: value} pair
+
+let user ={
+     key: "value",
+     key2: 234,
+     key3: true,
+     key4: " fiza",
+     firstname: "ahad",
+};
+
+let student1 = {
+     fullname: "example",
+     classId:"ABC",
+     rollnumber: 25,
+     email:"example@b.com",
+     ispassed: true,
+};
+
+//array of abject:
+
+let student2 = {
+     fullname: "example 2",
+     classId:"ABC",
+     rollnumber: 25,
+     email:"example@b.com",
+     ispassed: true,
+     subjects: ["English" , "urdu" , "programming"]
+};
+console.log(user)
+console.log(student1)
+console.log(student2)
+
+
+
+let student3: any[] = [student, student2,{
+     fullname: "example 2",
+     classId: "ABC",
+     rollnumber: 25,
+     email: "example@b.com",
+     ispassed: true,
+     subjects: ["English", "urdu", "programming"]
+}];
+
+console.log(student3[2].subjects[1])
+     //[] =>
+     // [value, value2, value3]
+     //["a","b"] => arr of string
+     //[[], [], []] => arr of array
+     //{} => empty object
+     //{key:value}
+     //{key: "a", key2: [] }
+ 
+
+ console.log(student3)
+
+
+ let arr = [{}, {}, [], {}]
+ let objects = {
+     key:{
+         key:{}
+     },
+ };
+ console.log(arr)
+ console.log(objects)
+ 
+ //thats called nested array
+ let array = [ {
+     name: "fiza",
+     number:123,
+     key:{ 
+          half: "butter",
+          light  :"bread",
+
+     }
+ }]
+console.log(array)
+
+// concatination use +
+
+                  //type of object:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

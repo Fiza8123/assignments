@@ -67,3 +67,67 @@ console.log(fruits);
 var game = [true, false];
 game[0] = false;
 console.log(game);
+// objects =>{}  => {key: value} pair
+var user = {
+    key: "value",
+    key2: 234,
+    key3: true,
+    key4: " fiza",
+    firstname: "ahad",
+};
+var student1 = {
+    fullname: "example",
+    classId: "ABC",
+    rollnumber: 25,
+    email: "example@b.com",
+    ispassed: true,
+};
+//array of abject:
+var student2 = {
+    fullname: "example 2",
+    classId: "ABC",
+    rollnumber: 25,
+    email: "example@b.com",
+    ispassed: true,
+    subjects: ["English", "urdu", "programming"]
+};
+console.log(user);
+console.log(student1);
+console.log(student2);
+var student3 = [student, student2, {
+        fullname: "example 2",
+        classId: "ABC",
+        rollnumber: 25,
+        email: "example@b.com",
+        ispassed: true,
+        subjects: ["English", "urdu", "programming"]
+    }];
+console.log(student3[2].subjects[1]);
+//[] =>
+// [value, value2, value3]
+//["a","b"] => arr of string
+//[[], [], []] => arr of array
+//{} => empty object
+//{key:value}
+//{key: "a", key2: [] }
+console.log(student3);
+var arr = [{}, {}, [], {}];
+var objects = {
+    key: {
+        key: {}
+    },
+};
+console.log(arr);
+console.log(objects);
+//thats called nested array
+var array = [{
+        name: "fiza",
+        number: 123,
+        key: {
+            half: "butter",
+            light: "bread",
+        }
+    }];
+console.log(array);
+// concatination use +
+//type of object:
