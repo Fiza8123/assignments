@@ -131,3 +131,29 @@ var array = [{
 console.log(array);
 // concatination use +
 //type of object:
+var student10 = ["student1", "student 2"];
+//interface addressType {
+//streetname: string;
+//city: string;
+//country: string;
+//zipcode: string;
+console.log(student10);
+var user10 = {
+    firstNAME: "fiza",
+    lastname: "amir",
+    cnicno: 1234567890,
+    isstudent: true,
+    subject: ["english", "urdu"],
+};
+console.log(user10);
+var address30 = {
+    streetname: "abc road",
+    city: "karachi",
+    country: "Pakistan",
+    zipcode: "12345",
+};
+console.log(address30);
+var laptop = "HP";
+console.log(laptop);
+var eating = 123445678908;
+console.log(eating);
